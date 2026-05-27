@@ -7,12 +7,7 @@ export default function Contact() {
         Phone: (02) 1234-5678<br />
         Email: info@brightsmile.example.com
       </p>
-      <form className="flex flex-col gap-4 max-w-md mx-auto">
-        <input type="text" placeholder="Your Name" className="rounded px-4 py-2 border border-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" />
-        <input type="email" placeholder="Your Email" className="rounded px-4 py-2 border border-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" />
-        <textarea placeholder="Your Message" rows={4} className="rounded px-4 py-2 border border-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]" />
-        <button type="submit" className="bg-[var(--accent)] text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-[var(--primary)] transition-colors">Send Message</button>
-      </form>
+      {/* Contact form removed as requested. For inquiries, please use the contact info above. */}
       <div className="flex justify-center gap-6 mt-6">
         {/* Socials */}
         <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook" className="text-[var(--social-facebook)] hover:scale-110 transition-transform">
